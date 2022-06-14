@@ -124,6 +124,13 @@ body.bottle-theme-yellow {
 
 .ninety-nine-wordmark {
   margin-top: 68px;
+  max-width: 75%;
+}
+
+@media (min-width: 1400px) {
+  .ninety-nine-wordmark {
+    max-width: 100%;
+  }
 }
 
 .bottlecap {
