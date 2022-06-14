@@ -158,22 +158,3 @@ picture {
   display: flex;
   overflow: hidden;
 }
-
-.carousel-cell {
-  width: 100%;
-  height: 100%;
-  margin-right: 10px;
-  background-color: var(--bottle-primary);
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 625px;
-  font-size: 80px;
-  color: white;
-}
