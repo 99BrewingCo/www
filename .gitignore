@@ -1,0 +1,6 @@
+*img-src*
+
+# Local Overrides for Offline Development
+bootstrap.min.css
+flickity.css
+flickity.pkgd.min.js
